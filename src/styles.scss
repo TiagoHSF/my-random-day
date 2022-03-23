@@ -1,0 +1,19 @@
+body {
+  background-image: url(assets/img/rain.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: inherit;
+  background-size: cover;
+}
+
+.container {
+  position: absolute;
+  top: 43%;
+  right: 27%;
+  width: 50%;
+}
+
+.title {
+  font-size: 65px;
+  font-weight: 500;
+}
