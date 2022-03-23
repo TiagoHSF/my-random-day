@@ -1,15 +1,9 @@
-  <html>
-    <head>
-    </head>
-    <body>
-      <div class="card container">
-        <div class="card-body title">
-          TODAY I'LL GO {{itemSelecionado}}
-        </div>
-      </div>
-    </body>
-    <div>
-      <button (click)="randomizar()"> RANDOMIZAR </button>
-      <button (click)="redirectTo()"> ABOUT? ...</button>
-    </div>
-  </html>
+<div class="card container efects">
+  <div class="card-body title">TODAY I'LL GO {{ itemSelecionado }}</div>
+  <button class="btn-page-align btn-random" (click)="randomizar()">
+    RANDOMIZAR
+  </button>
+  <button class="btn-page-align btn-about" (click)="redirectTo()">
+    ABOUT? ...
+  </button>
+</div>

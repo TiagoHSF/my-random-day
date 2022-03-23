@@ -1,0 +1,34 @@
+.efects {
+  background-color: #ffffff4d;
+  border-radius: 2rem;
+  box-shadow: 2.8px 2.8px 2.2px rgb(0 0 0 / 2%),
+    6.7px 6.7px 5.3px rgb(0 0 0 / 3%), 12.5px 12.5px 10px rgb(0 0 0 / 4%),
+    22.3px 22.3px 17.9px rgb(0 0 0 / 4%), 41.8px 41.8px 33.4px rgb(0 0 0 / 5%),
+    100px 100px 80px rgb(0 0 0 / 7%);
+}
+
+.btn-page-align {
+  display: inline !important;
+  width: 19rem !important;
+  position: relative !important;
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  background-color: #f0f8ff00 !important;
+  border-style: groove !important;
+  border-radius: 1rem !important;
+}
+
+.btn-random {
+  left: 15rem !important;
+}
+
+.btn-about {
+  left: 35rem !important;
+  top: -3.3rem !important;
+}
+
+.btn-random:hover,
+.btn-about:hover {
+  background-color: black !important;
+  color: white !important;
+}
