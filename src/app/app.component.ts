@@ -35,8 +35,23 @@ export class AppComponent {
       'FOR A SWIM',
       'TO THE GYM',
       'TO RUN',
+      'START A DIET',
+      'LEARN A NEW LANGUAGE',
+      'STUDY A NEW COURSE',
+      'WATCH A ROMANCE MOVIE',
+      'WATCH A HORROR MOVIE',
+      'WATCH A SUSPENSE MOVIE',
+      'WATCH AN ACTION MOVIE',
+      'WATCH A HERO MOVIE',
+      'TO A PARTY',
+      'DRINK MORE WATER',
+      'DRINK ALCOHOLIC DRINKS',
+      'READ THE BIBLE',
+      'LISTENING TO ELECTRONIC MUSIC',
+      'LISTEN TO SAD MUSIC',
+      'LISTEN TO COUNTRY MUSIC',
     ];
-    this.randomizedNumber = Math.floor(Math.random() * 10);
+    this.randomizedNumber = Math.floor(Math.random() * 25);
     this.itemSelecionado = this.itens[this.randomizedNumber];
     this.carregando = false;
   }
