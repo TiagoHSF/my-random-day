@@ -1,16 +1,21 @@
-<div class="card container efects">
-  <div class="card-body title">
-    TODAY I'LL GO {{ itemSelecionado
-    }}<i
-      *ngIf="this.carregando === true"
-      class="fas fa-circle-notch fa-spin"
-    ></i>
-  </div>
+<section>
+  <main>
+    <div class="card container efects">
+      <div class="card-body title">
+        TODAY I'LL GO {{ itemSelecionado
+        }}<i
+          *ngIf="this.carregando === true"
+          class="fas fa-circle-notch fa-spin"
+        ></i>
+      </div>
 
-  <button class="btn-page-align btn-random" (click)="randomizar()">
-    RANDOMIZAR
-  </button>
-  <button class="btn-page-align btn-about" (click)="redirectTo()">
-    ABOUT?...
-  </button>
-</div>
+      <button class="btn-page-align btn-random" (click)="randomizar()">
+        RANDOMIZAR
+      </button>
+      <button class="btn-page-align btn-about" (click)="redirectTo()">
+        ABOUT?...
+      </button>
+    </div>
+  </main>
+  <footer class="align-text-top">MY DAY RANDOMIZED</footer>
+</section>

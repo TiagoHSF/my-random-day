@@ -59,7 +59,14 @@ export class AppComponent {
   redirectTo() {
     this.substringRedirect = this.itemSelecionado.substring(0, 5);
     if (this.substringRedirect === 'STUDY') {
-      window.open('www.encurtador.com.br/dxHP1');
+      console.log('Achei study');
+      // window.open('www.encurtador.com.br/dxHP1');
+    }
+    if (this.substringRedirect === 'LISTE') {
+      console.log('Achei listen');
+    }
+    if (this.substringRedirect === 'WATCH') {
+      console.log('Achei WATCH');
     }
   }
 }
